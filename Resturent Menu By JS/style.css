@@ -1,0 +1,67 @@
+.menu{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.hr{
+    margin: auto;
+    width: 150px;
+    border-top: 5px solid red;
+}
+article{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-menu{
+    width: 40vw;
+    height: 200px;
+    margin-left: 6vw;
+    margin-bottom: 15px;
+    border: .6px solid rgb(126, 55, 55);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-photo{
+    width: 230px;
+    height: 200px;
+    border-radius: 25px;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.item-title{
+    text-align: center;
+}
+.item-price{
+    text-align: right;
+}
+
+.filter-btn{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100vw;
+    height: 50px;
+    
+}
+
+.btn{
+    margin-right: 15px;
+}
+
+.logo{
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+}
